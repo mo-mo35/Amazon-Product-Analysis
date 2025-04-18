@@ -1,6 +1,5 @@
 # Amazon-Product-Analysis
-PySpark big data analysis
-Amazon Product Analytics
+
 
 This repository contains a polished Apache Spark pipeline for Amazon product analytics. It ingests public SNAP Stanford product metadata and Amazon review data, performs feature engineering, auto-generates ML train/test splits, trains decision tree models, and writes per-stage metrics to Parquet.
 
