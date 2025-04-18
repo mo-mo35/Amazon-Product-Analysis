@@ -39,10 +39,10 @@ Local Dataset Usage (Optional)
 
 If you prefer to download the raw files and run locally:
 
-# Download metadata
+Download metadata
 wget https://snap.stanford.edu/data/amazon-meta.txt.gz -O data/amazon-meta.txt.gz
 
-# Download reviews (example subset)
+Download reviews (example subset)
 wget https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_Electronics_v1_00.tsv.gz -O data/reviews_Electronics.tsv.gz
 
 python3 amazon_product_analytics.py \
