@@ -46,9 +46,10 @@ wget https://snap.stanford.edu/data/amazon-meta.txt.gz -O data/amazon-meta.txt.g
  Download reviews
 wget https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_ALL_v1_00.tsv.gz -O data/reviews.tsv.gz
 
+
 python3 amazon_product_analytics.py \
     --meta-path data/amazon-meta.txt.gz \
-    --reviews-path data/reviews_Electronics.tsv.gz \
+    --reviews-path data/reviews.tsv.gz \
     --output-dir ./output
 
 Just point --meta-path and --reviews-path to your local files.
