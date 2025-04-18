@@ -11,7 +11,6 @@ Apache Spark (tested on Spark 3.x)
 
 AWS EMR or local Spark cluster
 
-Run the Pipeline
 
 By default, the script reads from two public sources:
 
