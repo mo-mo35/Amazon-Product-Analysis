@@ -3,14 +3,6 @@
 
 This repository contains a polished Apache Spark pipeline for Amazon product analytics. It ingests public SNAP Stanford product metadata and Amazon review data, performs feature engineering, generates ML train/test splits, trains decision tree models, and writes per-stage metrics to Parquet.
 
-📂 Repository Structure
-
-/amazon_product_analytics.py   Main Spark application
-/utilities.py                 Helper functions (PA2Data loader, SEED, test harness)
-/README.md                    Project overview and instructions
-
-🚀 Quick Start
-
 Prerequisites
 
 Python 3.7+
