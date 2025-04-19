@@ -3,7 +3,7 @@
 
 This repository contains a polished Apache Spark pipeline for Amazon product analytics. It ingests public SNAP Stanford product metadata and Amazon review data, performs feature engineering, generates ML train/test splits, trains decision tree models, and writes per-stage metrics to Parquet.
 
-Prerequisites
+##Prerequisites
 
 Python 3.7+
 
@@ -25,7 +25,7 @@ python3 amazon_product_analytics.py \
 
 All eight stages (feature engineering + ML) will run end-to-end without any additional downloads.
 
-Local Dataset Usage (Optional)
+##Local Dataset Usage (Optional)
 
 If you prefer to download the raw files and run locally:
 
@@ -44,7 +44,7 @@ python3 amazon_product_analytics.py \
 
 Just point --meta-path and --reviews-path to your local files.
 
-📦 Outputs
+##Outputs
 
 The script writes per-stage JSON/Parquet summaries into the --output-dir:
 
@@ -66,9 +66,7 @@ dt_tuning/
 
 Each folder contains Parquet tables with the outputs for that stage.
 
-📝 Customization
-
-CLI flags allow you to override any path.
+## Customization
 
 Utilities in utilities.py handle saving and seeding.
 
