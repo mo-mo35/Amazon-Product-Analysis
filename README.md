@@ -64,7 +64,7 @@ dt_baseline/
 
 dt_tuning/
 
-Each folder contains Parquet tables with the metrics for that stage.
+Each folder contains Parquet tables with the outputs for that stage.
 
 📝 Customization
 
