@@ -25,7 +25,7 @@ python3 amazon_product_analytics.py \
 
 All eight stages (feature engineering + ML) will run end-to-end without any additional downloads.
 
-##Local Dataset Usage (Optional)
+## Local Dataset Usage (Optional)
 
 If you prefer to download the raw files and run locally:
 
@@ -44,7 +44,7 @@ python3 amazon_product_analytics.py \
 
 Just point --meta-path and --reviews-path to your local files.
 
-##Outputs
+## Outputs
 
 The script writes per-stage JSON/Parquet summaries into the --output-dir:
 
