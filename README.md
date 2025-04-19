@@ -33,7 +33,8 @@ Download metadata:
 
 wget https://snap.stanford.edu/data/amazon-meta.txt.gz -O data/amazon-meta.txt.gz
 
- Download reviews
+Download reviews:
+
 wget https://s3.amazonaws.com/amazon-reviews-pds/tsv/amazon_reviews_us_ALL_v1_00.tsv.gz -O data/reviews.tsv.gz
 
 
