@@ -9,7 +9,7 @@ Python 3.7+
 
 Apache Spark (tested on Spark 3.x)
 
-AWS EMR or local Spark cluster
+AWS EC2 or local Spark cluster
 
 
 By default, the script reads from two public sources:
